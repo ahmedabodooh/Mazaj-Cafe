@@ -1,0 +1,150 @@
+.centered-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.number-container h1 {
+    margin: 0 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 50%;
+}
+.num1{
+    background-color: #007373;
+    color: #A4E1D2 !important;
+}
+.num2{
+    background-color: #B9B9B9;
+    color: white !important;
+}
+.line {
+    display: inline-block;
+    width: 50px; 
+    border-bottom: 1px solid #000; 
+    margin: 0 10px;
+}
+.oreder-summary{
+    border: 2px #B9B9B9 solid;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 50px;
+    padding-left: 100px !important;
+}
+/* payment methode  */
+.input-image {
+    width: 20px !important;
+    height: auto; 
+}
+.btn1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: none; 
+    background-color: #007373; 
+    color: white; 
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn1:hover {
+    background-color: white ;
+    color: #007373;
+    border: 2px solid #007373;
+}
+
+.num3{
+    color: #A4E1D2 !important;
+    background-color: #007373;
+}
+/* ------------------------------------------------------ */
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #007373 !important;
+    color: white !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
+
+}
+.form-control:focus {
+    box-shadow: none !important;
+    border: #004343 2px solid;
+}
+.close:hover{
+    background-color: white !important;
+    color: #007373 !important;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: .5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: .25rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
