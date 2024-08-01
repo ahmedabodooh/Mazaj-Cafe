@@ -490,3 +490,42 @@ margin-top: 5px;
 .cash a{
     text-decoration: none;
 }
+.imgg img{
+    border-radius: 15px;
+}
+/* ---------------------------------------------- */
+.floating-link {
+    position: fixed;
+    top: 65px;
+    right: 20px;  
+    background: linear-gradient(to right, #FAFF00 0%, #D89B00 100%) !important;
+    padding: 10px 20px;
+    border-radius: 50px; 
+    text-decoration: none; 
+    font-size: 16px; 
+    font-weight: bold; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
+}
+
+
+.floating-link:hover {
+    background: linear-gradient(to right, #ECECEC 0%, #AEAEAE 100%) !important;
+    transform: scale(1.1); 
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.floating-link {
+    animation: float 1s ease-in-out infinite;
+}
